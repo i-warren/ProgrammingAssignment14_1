@@ -37,7 +37,7 @@ public class ShowImages extends Application {
         ch.setFitWidth(250);
         ch.setFitHeight(150);
 
-        // add to pane
+        // convenience method combines setting the constraints and adding the children
         pane.add(uk, 0, 0);
         pane.add(frc, 1, 0);
         pane.add(usa, 1, 1);
